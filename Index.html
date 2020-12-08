@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="William e Gabriel">        
+        <title>Cadastro Empresarial</title>
+        <link rel="stylesheet" href="Index.css">
+    </head>
+
+    <body>
+
+        <div class="container" >
+            <div class="content">      
+                <div id="cadastro">
+                    <form method="post" action=""> 
+                        <h1>Cadastro</h1>
+                        <ol type="I">
+                            <li><p> 
+                                <label for="nome_cad">Seu nome</label>
+                                <input id="nome_cad" name="nome_cad" type="text" required="" placeholder="Gabriel Lima" />
+                            </p></li>
+                            
+                            <br><li><p> 
+                                <label for="email_cad">Seu e-mail</label>
+                                <input id="email_cad" name="email_cad" type="email" required="" placeholder="contato@ifpe.com"/> 
+                            </p></li>
+                            
+                            <br><li><p> 
+                                <label for="data_cad">Sua data de nascimento</label>
+                                <input id="data_cad" name="data_cad" type="date" required=""/>
+                            </p></li>
+
+                            <br><li><p>
+                                <label for="sexo_cad">Seu sexo</label>
+                                <select name="Sexo" id="sexo_cad" required="">
+                                    <option value="----">----</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                </select>
+                            </p></li>
+
+                            <br><li><div>
+                                <label for="">Seus gostos</label>
+                                <div>
+                                    <input type="checkbox" id="dormir" name="dormir">
+                                    <label for="scales">Dormir</label>
+                                </div>
+                                
+                                <div>
+                                    <input type="checkbox" id="programar" name="programar">
+                                    <label for="horns">Programar</label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" id="futebol" name="futebol">
+                                    <label for="horns">Jogar bola</label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" id="comer" name="comer">
+                                    <label for="horns">Comer</label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" id="musica" name="musica">
+                                    <label for="horns">Tocar musica</label>
+                                </div>
+                            </div>
+                        </ol>
+
+                        <br><p> 
+                            <button type="submit" >Cadastrar</button>
+                        </p>                  
+                    </form>
+                    <footer>Desenvolvido por Gabriel Lima e William Teles</footer>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
